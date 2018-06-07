@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="交友、社交游戏、VR/AR娱乐">
+    <title>微奥官网 | 音乐娱乐</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+    
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+    <!--<![endif]-->
+    
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="./css/layouts/base.css">
+    <link rel="stylesheet" href="./css/layouts/videochat.css">
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
+        <![endif]-->
+        <!--[if gt IE 8]><!-->
+            
+        <!--<![endif]-->
+    <script>
+      (function (doc, win) {
+            var docEl = doc.documentElement,
+            ua = navigator.userAgent,
+            isIOS = ua.match(/iphone|ipod|ipad/gi),
+            dpr = isIOS? Math.min(win.devicePixelRatio, 3) : 1,
+            designW = 800,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
+            docEl.dataset.dpr = dpr;
+            var recalc = function () {
+                var width = docEl.clientWidth;
+                if (width / dpr > designW) {
+                    width = designW;
+                }
+                docEl.style.fontSize = 100 * (width / designW) + 'px';
+            };
+            recalc();
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+        })(document, window);
+    </script>
+</head>
+<body>
+<div class="header">
+    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+        <a class="pure-menu-heading" href="">微奥科技</a>
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item"><a href="./index.html" class="pure-menu-link">首页</a></li>
+            <li class="pure-menu-item"><a href="./index.html#game" class="pure-menu-link">游戏中心</a></li>
+            <li class="pure-menu-item"><a href="./music.html" class="pure-menu-link">音乐娱乐</a></li>
+            <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">实时面对面社交</a></li>
+            <li class="pure-menu-item"><a href="./recharge.html" class="pure-menu-link">充值中心</a></li>
+            <li class="pure-menu-item"><a href="./index.html#intro" class="pure-menu-link">关于我们</a></li>
+            <li class="pure-menu-item">|</li>
+            <li class="pure-menu-item"><a href="./login.html" class="pure-menu-link">用户登录</a></li>
+            <li class="pure-menu-item"><a href="./fcm.html" class="pure-menu-link" style="color: red;">文化部必备条款</a></li>
+            <li class="pure-menu-item"><a href="./fcm.html#intro" class="pure-menu-link" style="color: red;">家长监护工程</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="content-wrapper2">
+    <div class="wrap" id="wrap">
+        <div class="row">
+            <div class="col">
+                <img src="http://live.tikiapp.im/landing/img/group-2-dc78d7eaa9.png" alt="和全球年轻人视频聊天" class="slogan">
+                <div class="distribution">
+                    <div class="dl-btns">
+                        <a href="https://itunes.apple.com/cn/app/tiki/id1121119009?l=zh&ls=1&mt=8" target="_blank" class="dl-btn ios-v">
+                            <span class="dl-info"><i class="iconfont icon-apple">&#xe602;</i>App Store</span>
+                        </a>
+                        <a href="http://a.app.qq.com/o/simple.jsp?pkgname=com.buddy.tiki" target="_blank" class="dl-btn android-v">
+                            <span class="dl-info"><i class="iconfont icon-android">&#xe603;</i>安卓下载</span>
+                        </a>
+                    </div><!-- 
+                    <div class="qrcode">
+                        <img src="img/qrcode.png" data-rjs="img/qrcode@2x.png" alt="qrcode">
+                    </div> -->
+                </div>
+            </div>
+            <div class="col">
+                <div class="app-guide">
+                    <div class="v-bg" style="background: url('http://live.tikiapp.im/landing/img/phone-930390a7e7.png') no-repeat" data-rjs="img/phone@2x.png">
+                        <div class="vid">
+                            <video id="video" preload poster="img/poster.jpg" src="http://ly-video-cdn1.oss-cn-hangzhou.aliyuncs.com/58c0f0a48ba0707f6fa181c9ad86adc7c3ed5502.mp4" x-webkit-airplay webkit-playsinline playsinline autoplay></video>
+                            <div class="play-btn" id="playBtn"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--/ .wrap-->
+    <div class="intro-product">
+        <div class="product-wrap">
+            <h3>产品介绍</h3>
+            <section class="product-figure">
+                <div class="col">
+                    <figure>
+                        <figcaption>
+                            <h4>萌系人脸贴纸</h4>
+                            <p>动态贴纸自动定位，越聊越6</p>
+                        </figcaption>
+                        <img src="http://live.tikiapp.im/landing/img/1-d297130a7b.png" alt="">
+                    </figure>
+                </div>
+                <div class="col">
+                    <figure>
+                        <figcaption>
+                            <h4>搞怪卡通替身</h4>
+                            <p>能跟着你一起动嘴、挑眉、眨眼</p>
+                        </figcaption>
+                        <img src="http://live.tikiapp.im/landing/img/2-cdd66436e5.png" alt="">
+                    </figure>
+                </div>
+                <div class="col">
+                    <figure>
+                        <figcaption>
+                            <h4>潮流3D全景伪装</h4>
+                            <p>超逼真全景装备，震撼呈现</p>
+                        </figcaption>
+                        <img src="http://live.tikiapp.im/landing/img/3-2dd29c3232.png" alt="">
+                    </figure>
+                </div>
+                <div class="col">
+                    <figure>
+                        <figcaption>
+                            <h4>炫酷礼物特效</h4>
+                            <p>你的心意，值得完美呈现</p>
+                        </figcaption>
+                        <img src="http://live.tikiapp.im/landing/img/4-3809894018.png" alt="">
+                        <div class="car"><img src="http://live.tikiapp.im/landing/img/car-7c0846d8d2.png" /></div>
+                    </figure>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- <div class="dl-area">
+        <a href="http://a.app.qq.com/o/simple.jsp?pkgname=com.buddy.tiki" target="_blank" class="dl-btn" id="downloadBtn">
+            <div class="dl-inner"><img src="img/ico-monkey.png" data-rjs="img/ico-monkey@2x.png" alt="tiki logo" class="ico-monkey24">
+            立即下载</div>
+        </a>
+    </div> -->
+
+    <div class="footer l-box b-box is-center">
+        <p>© 2016-2020 wellar.cn 版权所有 杭州微奥科技有限公司</p>
+        <div class="pure-menu pure-menu-horizontal">
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item">
+                    <a href="http://cdn1.biuapp.im/5b18a0b64c58f937a8e64a4350c51631f4ed7e03.png" target="_blank" class="pure-menu-link">浙网文[2017] 8386-627号</a>
+                </li>
+                <li class="pure-menu-item">|</li>
+                <li class="pure-menu-item">
+                    <a href="./fcm.html#whb" class="pure-menu-link">文化部必备条款</a>
+                </li>
+                <li class="pure-menu-item">|</li>
+                <li class="pure-menu-item">
+                    <a href="./fcm.html#intro" class="pure-menu-link">家长监护</a>
+                </li>
+                <li class="pure-menu-item">|</li>
+                <li class="pure-menu-item">
+                    <a href="./fcm.html#apply" class="pure-menu-link">申请流程</a>
+                </li>
+                <li class="pure-menu-item">|</li>
+                <li class="pure-menu-item">
+                    <a href="./fcm.html#" class="pure-menu-link">服务FAQ</a>
+                </li>
+            </ul>
+        </div>
+        <p>浙ICP备 17036561号</p>
+    </div>
+
+</div>
+
+<script src="http://cdn.bootcss.com/jquery/2.1.0/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/retina.js/2.1.0/retina.min.js"></script>
+<script>
+    $(function(){
+        var ua = window.navigator.userAgent.toLowerCase();
+        if($.isFunction(window.retinajs)){
+            retinajs();
+        }
+        var $item = $('.recharge-item');
+        $item.click(function(){
+            $item.removeClass('on');
+            $(this).addClass('on');
+            $('#rechargeConfirmBtn').addClass('on');
+        });
+
+        $('#rechargeBtn').click(function(){
+            $('#rechargePanel').show();
+        });
+        $('#closeBtn').click(function(){
+           $('#rechargePanel').hide(); 
+        });
+
+        var $vid = $('#video'), $playBtn = $('#playBtn');
+        $playBtn.hide();
+        $playBtn.click(function(){
+            $(this).hide();
+            $vid[0].play();
+        });
+        $vid[0].addEventListener('playing', function(){
+            $playBtn.hide();
+        });
+        $vid[0].addEventListener('ended', function(){
+            $playBtn.show();
+        });
+        $vid[0].addEventListener('loadedmetadata', function(){
+            $playBtn.show();
+        });
+        
+        if((ua.match(/MicroMessenger/i) != "micromessenger") && (ua.search(/iphone|ipad|ipod/) <= -1)){// 非微信环境
+            $('#downloadBtn').attr('href', 'http://assets1.biuapp.im/tiki2017-05-16-12-23.apk');
+        }
+        
+    });
+    </script>
+</body>
+</html>

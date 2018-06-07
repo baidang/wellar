@@ -1,0 +1,472 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+    <meta name="renderer" content="webkit">
+	<meta content="京宝娱乐,杭州京宝娱乐有限公司,互联网娱乐经纪,JoyBox, JOYBOX FAMILY" name="description">
+    <meta content="京宝娱乐,杭州京宝娱乐有限公司,互联网娱乐经纪,JoyBox, JOYBOX FAMILY" name="keywords">
+	<title>「京宝娱乐」Joy Box Entertainment</title>
+	<script type="text/javascript">
+	    if(window.navigator.userAgent.toLowerCase().search(/msie/) > -1){
+	        window.location.href = 'http://live.biuapp.im/tms/lowbroswer';
+	    }
+	</script>
+	<link rel="stylesheet" href="css/common.css" />
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/uploadify.css" />
+	<link rel="stylesheet" href="css/apply.css" />
+	<style>
+		.gradient-bg, select.form-control{
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,d1d1d1+88,c4c4c4+100 */
+			background: #ffffff; /* Old browsers */
+			background: -moz-linear-gradient(top,  #ffffff 0%, #d1d1d1 88%, #c4c4c4 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(top,  #ffffff 0%,#d1d1d1 88%,#c4c4c4 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to bottom,  #ffffff 0%,#d1d1d1 88%,#c4c4c4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c4c4c4',GradientType=0 ); /* IE6-9 */
+
+		}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="content" id="content">
+			<div class="apply-title">Application Form</div>
+			<div class="apply-sub-title">报名申请表</div>
+			<div class="tile">
+				<span class="tips">招募要求：15-24周岁 158CM以上 形象出众气质独特无任何演艺经纪合约</span>
+				<form action="" id="applyForm">
+					<div class="row">
+						<div class="col-l">
+							<div class="clearfix">
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label><em class="need-mark"></em>姓名</label>
+										<input type="text" class="form-control" name="name" placeholder="姓名">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label><em class="need-mark"></em>年龄</label>
+										<input type="text" class="form-control" name="age" placeholder="年龄">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label><em class="need-mark"></em>身高</label>
+										<input type="text" class="form-control" name="cm" placeholder="(CM)">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label><em class="need-mark"></em>体重</label>
+										<input type="text" class="form-control" name="kg" placeholder="(KG)">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label><em class="need-mark"></em>联系方式</label>
+										<input type="text" class="form-control" name="phone" placeholder="手机号">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label><em class="need-mark"></em>qq邮箱</label>
+										<input type="text" class="form-control" name="email" placeholder="">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label><em class="need-mark"></em>微信/微博</label>
+										<input type="text" class="form-control" name="weixinOrweibo" placeholder="微信微博">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label><em class="need-mark"></em>通过什么渠道了解到本次招募</label>
+										<select name="channel" id="channel" class="form-control">
+											<option value="微博">微博</option>
+											<option value="微信">微信</option>
+											<option value="朋友介绍">朋友介绍</option>
+											<option value="网络">网络</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-sm-12">
+									<div class="form-group living-group">
+										<label class="col-sm-2 no-padding living-label"><em class="need-mark"></em>现居住地</label>
+										<div class="col-sm-10 no-padding">
+											<div id="provinceCont" class="col-sm-4"></div>
+											<div id="cityCont" class="col-sm-4"></div>
+											<div id="districtCont" class="col-sm-4"></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label><em class="need-mark"></em>毕业院校</label>
+										<input type="text" class="form-control" name="school" placeholder="毕业院校">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label><em class="need-mark"></em>专业</label>
+										<input type="text" class="form-control" name="major" placeholder="专业">
+									</div>
+								</div>
+								<div class="col-sm-12">
+									<div class="form-group">
+										<label><em class="need-mark"></em>擅长才艺</label>
+										<textarea class="form-control" rows="3" name="skill"></textarea>
+									</div>
+								</div>
+								<div class="col-sm-12">
+									<div class="form-group">
+										<label><em class="need-mark"></em>演出经历</label>
+										<textarea class="form-control" rows="3" name="experience"></textarea>
+									</div>
+								</div>
+								<div class="col-sm-12">
+									<div class="form-group">
+										<label><em class="need-mark"></em>获奖经历</label>
+										<textarea class="form-control" rows="3" name="awards"></textarea>
+									</div>
+								</div>
+								<div class="col-sm-12">
+									<div class="form-group">
+										<label><em class="need-mark"></em>个人爱好</label>
+										<textarea class="form-control" rows="3" name="hobbies"></textarea>
+									</div>
+								</div>
+							</div>
+							<div class="radio">
+								<div class="form-group">
+									<label class="col-sm-4"><em class="need-mark"></em>歌唱水平</label>
+									<div class="col-sm-8">
+										<label class="col-sm-4">
+									    	<input type="radio" name="sings" value="一般" checked>
+									    	一般
+									  	</label>
+									  	<label class="col-sm-4">
+									    	<input type="radio" name="sings" value="良好" >
+									    	良好
+									  	</label>
+									  	<label class="col-sm-4">
+									    	<input type="radio" name="sings" value="优秀" >
+									    	优秀
+									  	</label>
+								  	</div>
+								</div>
+							</div>
+							<div class="radio">
+								<div class="form-group">
+									<label class="col-sm-4"><em class="need-mark"></em>舞蹈水平</label>
+									<div class="col-sm-8">
+										<label class="col-sm-4">
+									    	<input type="radio" name="dances" value="一般" checked>
+									    	一般
+									  	</label>
+									  	<label class="col-sm-4">
+									    	<input type="radio" name="dances" value="良好">
+									    	良好
+									  	</label>
+									  	<label class="col-sm-4">
+									    	<input type="radio" name="dances" value="优秀">
+									    	优秀
+									  	</label>
+								  	</div>
+								</div>
+							</div>
+							<div class="radio">
+								<div class="form-group">
+									<label class="col-sm-4"><em class="need-mark"></em>表演水平</label>
+									<div class="col-sm-8">
+										<label class="col-sm-4">
+									    	<input type="radio" name="actions" value="一般" checked>
+									    	一般
+									  	</label>
+									  	<label class="col-sm-4">
+									    	<input type="radio" name="actions" value="良好" >
+									    	良好
+									  	</label>
+									  	<label class="col-sm-4">
+									    	<input type="radio" name="actions" value="优秀" >
+									    	优秀
+									  	</label>
+								  	</div>
+								</div>
+							</div>
+							<div class="radio">
+								<div class="form-group">
+									<label class="col-sm-4"><em class="need-mark"></em>普通话水平</label>
+									<div class="col-sm-8">
+										<label class="col-sm-4">
+									    	<input type="radio" name="mandarins" value="一般" checked>
+									    	一般
+									  	</label>
+									  	<label class="col-sm-4">
+									    	<input type="radio" name="mandarins" value="良好" >
+									    	良好
+									  	</label>
+									  	<label class="col-sm-4">
+									    	<input type="radio" name="mandarins" value="优秀" >
+									    	优秀
+									  	</label>
+								  	</div>
+								</div>
+							</div>
+							<div class="col-sm-12">
+								<div class="form-group">
+									<label>作品外链1</label>
+									<input type="text" class="form-control link_hook m_hook" placeholder="发布在第三方平台（优酷土豆、美拍、bilibili等）的作品链接">
+								</div>
+							</div>
+							<div class="col-sm-12">
+								<div class="form-group">
+									<label>作品外链2</label>
+									<input type="text" class="form-control link_hook m_hook" placeholder="发布在第三方平台（优酷土豆、美拍、bilibili等）的作品链接">
+								</div>
+							</div>
+							<div class="col-sm-12">
+								<div class="form-group">
+									<label>作品外链3</label>
+									<input type="text" class="form-control link_hook m_hook" placeholder="发布在第三方平台（优酷土豆、美拍、bilibili等）的作品链接">
+								</div>
+							</div>
+						</div>
+						<div class="col-r">
+							<div class="photo-form-item form-group">
+								<div class="img-result">
+									<div class="close-btn">x</div>
+									<div class="img"></div>
+								</div>
+								<div class="progress">
+								  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+								  </div>
+								</div>
+								<div class="upload-comp">
+									<span class="ico-photo"><img src="img/camera.jpg" alt=""></span>
+									<p>此处上传素颜半身照</p>
+									<p class="img-tips">照片不得大于2M</p>
+									<input type="file" class="file-ipt" id="Image1" name="data" />
+									<input type="hidden" class="form-control" value="" name="bodyu" data-validate_msg="素颜半身照未上传" />
+								</div>
+							</div>
+							<div class="photo-form-item form-group">
+								<div class="img-result">
+									<div class="close-btn">x</div>
+									<div class="img"></div>
+								</div>
+								<div class="progress">
+								  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+								  </div>
+								</div>
+								<div class="upload-comp">
+									<span class="ico-photo"><img src="img/camera.jpg" alt=""></span>
+									<p>此处上传上妆半身照</p>
+									<p class="img-tips">照片不得大于2M</p>
+									<input type="file" class="file-ipt" id="Image2"/>
+									<input type="hidden" value="" class="form-control" name="bodyuBeauty" data-validate_msg="上妆半身照未上传" />
+								</div>
+							</div>
+							<div class="photo-form-item form-group">
+								<div class="img-result">
+									<div class="close-btn">x</div>
+									<div class="img"></div>
+								</div>
+								<div class="progress">
+								  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+								  </div>
+								</div>
+								<div class="upload-comp">
+									<span class="ico-photo"><img src="img/camera.jpg" alt=""></span>
+									<p>此处上传全身照</p>
+									<p class="img-tips">照片不得大于2M</p>
+									<input type="file" class="file-ipt" id="Image3" />
+									<input type="hidden" value="" class="form-control" name="bodyall" data-validate_msg="全身照未上传" />
+								</div>
+							</div>
+						</div>	
+					</div><!-- /.row-->
+					<div class="submit-item">
+						<button class="gradient-bg submit-btn" type="submit" id="submitBtn">提交</button>
+					</div>
+				</form><!-- / form -->
+			</div><!--/ .tile -->
+		</div><!-- /.content -->
+	</div><!-- /.wrap -->
+<script src="http://assets.beauty.geekint.com/tms/global/js/jquery.min-1.11.3.js"></script>
+<script src="http://assets.beauty.geekint.com/tms/global/js/jquery.scrollTo.min.js"></script>
+<script src="http://assets.beauty.geekint.com/tms/global/js/location-data.js"></script>
+<script src="js/jbe.js"></script>
+<script>
+	jQuery.extend({
+	    stringify  : function stringify(obj) {         
+	        if ("JSON" in window) {
+	            return JSON.stringify(obj);
+	        }
+
+	        var t = typeof (obj);
+	        if (t != "object" || obj === null) {
+	            // simple data type
+	            if (t == "string") obj = '"' + obj.replace(/"/g,'\\\"') + '"';
+	            return String(obj);
+	        } else {
+	            // recurse array or object
+	            var n, v, json = [], arr = (obj && obj.constructor == Array);
+
+	            for (n in obj) {
+	                v = obj[n];
+	                t = typeof(v);
+	                if (obj.hasOwnProperty(n)) {
+	                    if (t == "string") {
+	                        v = '"' + v.replace(/"/g,'\\\"') + '"';
+	                    } else if (t == "object" && v !== null){
+	                        v = jQuery.stringify(v);
+	                    }
+	                    json.push((arr ? "" : '"' + n + '":') + String(v));
+	                }
+	            }
+
+	            return (arr ? "[" : "{") + String(json) + (arr ? "]" : "}");
+	        }
+	    }
+	});
+	$(function(){
+		// 生成省市区
+		new AreaPlug({areaCode: '330106', ids:'province-city-district',names:'province-city-district',container:'provinceCont-cityCont-districtCont'});
+
+		var $form = $('#applyForm');
+		$form.find('.form-control').on('focus', function(){
+			$(this).parents('.form-group').removeClass('has-warning');
+		});
+		$('#submitBtn').on('click', function(){
+			var y = true, arr = $form.serializeArray(), formdata = {};
+			// 验证表单项不能为空
+			$form.find('.form-control').each(function(){
+				var $this = $(this);
+				if(!$this.val() && !$this.hasClass('m_hook')){
+					y = false;
+					$this.parents('.form-group').addClass('has-warning');
+				}
+			});
+
+			if(!y){
+				alert('[｡◉ꀦ◉]ﾜﾝﾜﾝ♡表单未填写完整');
+				return false;
+			}
+
+			if(arr){
+				// 提取表单数据
+				$.each(arr, function (i, v) {
+					formdata[v.name] = v.value;
+				});
+
+				// 处理现居住地
+				formdata['province'] = $('#province').find('option:selected').text();
+				formdata['city'] = $('#city').find('option:selected').text();
+				formdata['district'] = $('#district').find('option:selected').text();
+				
+				
+				// 作品链接
+				var linksArr = [];
+				$('.link_hook').each(function(){
+					var $this = $(this);
+					linksArr.push($this.val());
+				});
+				formdata['links'] = $.stringify(linksArr);
+			}
+
+			// 上传表单
+			JBE.ajax({
+				url: JBE.GI.host + 'jbe_action/submit_enroll'
+				,type: 'post'
+				,dataType: 'json'
+				,data: formdata
+			}).done(function(resp){
+				console.log(resp);
+				alert('提交成功!');
+				if(window.top && window.top.$.fancybox){
+					window.top.$.fancybox.close();
+				}
+				window.location.href = window.location.origin;
+			});
+
+			return false;
+		});
+
+		// 半身照
+		var imgUploadUrl = JBE.GI.host + 'jbe_action/upload_pic';
+		// $('.file-ipt').on('change', function(e){
+		// 	var e = e.originalEvent;
+		// 	console.log(e);
+		// });
+		$('.file-ipt').on('change', function (e) {
+			var $this = $(this);
+			var e = e.originalEvent;
+			var file = e.target.files[0];
+            var fd = new FormData();
+            var xhr = new XMLHttpRequest();
+            var $progress = $this.parents('.form-group').find('.progress');
+            var $progressBar = $progress.find('.progress-bar');
+            $this.parents('.form-group').removeClass('has-warning');
+
+            fd.append("data", file, true);
+            xhr.open("POST", imgUploadUrl , true);
+            xhr.overrideMimeType('text/plain; charset=x-user-defined-binary');
+            xhr.addEventListener('load', function(e){
+                var resp = e.target, d;
+                if(resp.readyState === 4 && resp.status === 200){
+                    d = JSON.parse(resp.response);
+                    if(d && d.code == 0 && d.result){
+                        var pic = d.result;
+                        var $fg = $this.parents('.form-group');
+			            $fg.find('.img-result').show()
+			            .find('.img').html('<img src="'+ pic +'" alt="">');
+			            $fg.find('.upload-comp').hide();
+			            // $progress.hide();
+                        $this.nextAll('input[type=hidden]').val(pic)
+                    }else{
+                        if(d && d.msg){
+                            alert(decodeURIComponent(d.msg));
+                        }else{
+                            alert(d.msg + 'ε=ε=ε=(υ◉ω◉)!');
+                        }
+                    }
+                }
+            });
+            xhr.upload.addEventListener('progress', function(e){
+                if(e.loaded > 0){
+                    var percentage = Math.round((e.loaded * 100) / e.total);
+                   	console.log(percentage);
+                   	$progress.show();
+                   	$progressBar.css({
+                   		width: percentage + '%'
+                   	})
+                }
+            }, false);
+            xhr.addEventListener('error', function(){ 
+                alert('上传失败!~');
+            });
+            xhr.send(fd);
+		});
+
+		$('.close-btn').click(function(){
+			var $item = $(this).parents('.img-result').hide()
+			.parents('.photo-form-item')
+			$item.find('.upload-comp').show();
+			$item.find('.progress-bar').css('width', '0%');
+		});
+	});
+</script>
+<script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "//hm.baidu.com/hm.js?cf03a40baa0091d72e06c9721ffd8bdf";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	</script>
+</body>
+</html>
